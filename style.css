@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+:root{
+    --primaryColor:#2f8894 ;
+    --primaryColor-dark:#134349 ;
+
+}
+* {
+  box-sizing: border-box;  
+}
+
+
+
+body{
+    background: var(--primaryColor);
+    font-family: 'lugrasimo',  'open-sans';
+    line-height: 2;
+}
+
+.container{
+    
+    max-width:  640px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.imc{
+    float: left;
+    display: block;
+    
+}
+.resultado{
+    float: right;
+    display: block;
+}
+
+form label, form input,form button{
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+
+form button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:#fff;
+    font-size: 17px;
+    font-family: 'lugrasimo',  'open-sans';
+}
+.validParagrafo, .invalidParagrafo{
+   justify-content: center;
+   align-content: center;
+    background: rgb(19, 163, 43);
+    padding: 5px 10px;
+}
+.invalidParagrafo{
+    background: rgb(241, 32, 32);
+}
+
+.titulo{
+    width: 300px;
+    margin: auto;
+}
